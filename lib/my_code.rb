@@ -17,7 +17,7 @@ end
 
 #map(source_array){|n| n = n}
 
-def reduce(array, sv = nil)
+def reduce(array, sv = 0)
   i = 0
   if sv
     num1 = sv
