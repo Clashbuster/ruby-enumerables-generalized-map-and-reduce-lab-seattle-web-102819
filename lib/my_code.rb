@@ -29,4 +29,6 @@ while i < array.length
   sum = yield(num1, array[i])
 i += 1
 end
+sum
+end
 
