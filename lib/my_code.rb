@@ -16,17 +16,4 @@ end
 #map(source_array){|n| n * n}
 
 #map(source_array){|n| n = n}
-
 def reduce(array, sv = nil)
-  i = 0
-  if sv
-    num1 = sv
-  else
-    num1 = 0
-  end
-while i < array.length
-  sum = yield(num1, array[i])
- i += 1
-end
-sum
-end
