@@ -17,5 +17,7 @@ end
 
 #map(source_array){|n| n = n}
 
-def reduce
+def reduce(array, sv)
+  
+  
 
