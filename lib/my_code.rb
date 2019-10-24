@@ -9,11 +9,11 @@ def map(array)
 end
 
 
-map(source_array){|n| n * -1}
+#map(source_array){|n| n * -1}
 
-map(source_array){|n| n * 2}
+#map(source_array){|n| n * 2}
 
-map(source_array){|n| n * n}
+#map(source_array){|n| n * n}
 
-map(source_array){|n| n = n}
+#map(source_array){|n| n = n}
 
